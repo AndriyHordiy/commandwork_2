@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>General</title>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#about">Про нас</a>
-            <a href="#contacts">Контакти</a>
+        <nav aria-label="Навігація по сторінці">
+            <h1 >Навігація по сторінці:</h1>
+            <ul>
+                <li><a href="#about" aria-label="Про нас">Про нас</a></li>
+                <li><a href="#contacts" aria-label="Контакти">Контакти</a></li>
+                <li><a href="#services" aria-label="Послуги">Послуги</a></li>
+                <li><a href="#form" aria-label="Заповніть анкету">Заповніть анкету</a></li>
+            </ul>
         </nav>
-        <h1>IT</h1>
     </header>
     <main>
         <div id="about">
@@ -34,8 +38,6 @@
             <p>Телефон: +380223334444</p>
         </div>
     </main>
-    <footer>
-        <p><time datetime="2025-09-29">2025</time> ITcompany</p>
-    </footer>
+    <footer><strong>Загальна інформація (с) 2025</strong></footer>
 </body>
 </html>
